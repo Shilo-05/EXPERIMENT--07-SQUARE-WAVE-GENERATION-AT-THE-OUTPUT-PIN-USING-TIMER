@@ -196,11 +196,12 @@ void Error_Handler(void)
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
 
+```
 TON = 500 units (since Pulse = 500)
 TOFF = 1000 - 500 = 500 units
 Total Time = 1000 units (since Period = 1000)
 Frequency = 1 / 1000 units (depends on timer clock frequency, typically it will be the reciprocal of Total Time when considering clock rate)
-
+```
 
 
 ![image](https://github.com/user-attachments/assets/a28e64ab-17fd-4bd5-99bd-184fa053ea99)
@@ -208,22 +209,23 @@ Frequency = 1 / 1000 units (depends on timer clock frequency, typically it will 
 
 FOR PULSE AT 700
 
+```
 TON = 700 units
 TOFF = 1000 - 700 = 300 units
 Total Time = 1000 units
 Frequency = 1 / 1000 units
-
+```
 ![image](https://github.com/user-attachments/assets/46cccc54-b87d-42d8-bc6a-05b2d4e5c6e3)
 
 
 
 FOR PULSE AT 900
-
+```
 TON = 900 units
 TOFF = 1000 - 900 = 100 units
 Total Time = 1000 units
 Frequency = 1 / 1000 units
-
+```
 ![image](https://github.com/user-attachments/assets/6a2c087e-9337-4529-a436-887ef8036640)
 
 
